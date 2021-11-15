@@ -80,7 +80,7 @@ async function run() {
         });
 
 
-        // update status pendig to approve
+        //update status pendig to approve
 
         app.put('/orders/:id', async (req, res) => {
             const id = req.params.id;
